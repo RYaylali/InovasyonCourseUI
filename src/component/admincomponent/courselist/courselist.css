@@ -1,0 +1,82 @@
+.tableavans {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.avansgenel {
+  padding: 2vh;
+}
+.avansdbaslik {
+  font-size: 4vh;
+  text-align: center;
+}
+.avansddbaslik {
+  font-size: 4vh;
+  padding: 5vh;
+  text-align: center;
+}
+
+.table-headeravans {
+  display: flex;
+  background-color: #f2f2f2;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.table-bodyavans {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Satır ve Sütun Stilleri */
+.rowavans {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+}
+
+.columnavans {
+  flex: 1;
+  padding: 4px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.indexx {
+  flex: 0.3;
+  padding: 4px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.columnavansname {
+  flex: 0.7;
+  padding: 4px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Onayla ve Reddet Buton Stilleri */
+.avansbtn {
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.avanscheck:hover {
+  background-color: #0056b3;
+}
+.avanscross:hover {
+  background-color: #b30404;
+}
+.avanscheck {
+  background-color: #007bff;
+}
+.avanscross {
+  background-color: #eb0f0f;
+}

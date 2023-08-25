@@ -1,0 +1,80 @@
+.containerupdateemployeeadd {
+  max-width: 100%;
+  height: 100%;
+  background: url("https://img.freepik.com/free-vector/white-background-with-wavy-lines_23-2149124448.jpg?w=996&t=st=1687082086~exp=1687082686~hmac=c350ef037951f11100c6b9da89ce52f97a91fe6573006d782343f54984b67665");
+  padding: 50px;
+  background-size: cover;
+}
+.genelupdateemployeeadd {
+  display: flex;
+}
+.leftemployeeadd {
+  width: 50%;
+  margin-left: 18vh;
+}
+.rightemployeeadd {
+  width: 50%;
+}
+
+.updateprofileemployeeadd {
+  margin-top: 20px;
+  font-size: 2vh;
+  width: 100%;
+}
+
+.updatelabelemployeeadd {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.updateinputemployeeadd,
+.updatetextareaemployeeadd,
+.updateselectemployeeadd {
+  width: 70%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 2px solid #000000;
+  font-size: 2vh;
+}
+
+.button-container {
+  display: flex;
+  justify-content: end;
+  margin-top: 3vh;
+}
+
+.updatebuttonemployeeadd {
+  margin: 10px;
+
+  background-color: #e6c226;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.saveemployeeadd {
+  margin-right: 5vh;
+  padding: 15px 50px;
+}
+.cancelemployeeadd {
+  background-color: gray;
+  margin-right: 27vh;
+  padding: 15px 40px;
+}
+
+.saveemployeeadd:hover {
+  background-color: rgb(248, 210, 42);
+}
+.cancelemployeeadd:hover {
+  background-color: rgba(150, 145, 145, 0.884);
+}
+
+.baslikdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.employeregisterbaslik {
+  text-align: center;
+}
